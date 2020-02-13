@@ -8,12 +8,9 @@ namespace Worst_Code
 {
     class Program
     {
-        int varibIeoftypeInt;int varibleoftypeInt;int varibleOftypeInt; int varibleOfTypeInt;int varibleofTypelnt;int varibleofTypeInt;
-        static void Main(string[] args)
-        {
-            
-        }
-        int bigmathifthevaluesarethesameisheventhoughtheyaremadetobeasincomprehensiveasposssible(int varibIeofTypelnt){if(varibleOftypeInt==varibleOfTypeInt||varibleofTypelnt==varibleofTypeInt){varibIeofTypelnt=((varibleOfTypeInt+varibleofTypelnt)*3)+((varibleOftypeInt+varibleofTypeInt)*3)-((varibleOftypeInt+varibleofTypelnt)*3)-((varibleOfTypeInt+varibleofTypeInt)*3);return varibIeofTypelnt;}else{return varibIeofTypelnt=63;}}
-        int bigmathofsomesortwhichismadetobeasincomprehensibleaspossible(int varibleoftypelnt){if(varibIeoftypeInt==varibleoftypeInt){varibleoftypelnt=(varibIeoftypeInt+varibleoftypeInt)*3;return varibleoftypelnt;}else{varibleoftypelnt=varibIeoftypeInt+varibleoftypeInt;return varibleoftypelnt;}}
+        static int varibIeoftypeInt;static int varibleoftypeInt;
+        public void Enteryourintegersorsomething(){Console.Write("\nEnter Int #1:\t");varibIeoftypeInt=Convert.ToInt32(Console.ReadLine());Console.Write("\nEnter Int #2:\t");varibleoftypeInt=Convert.ToInt32(Console.ReadLine());}
+        public int Bigmathofsomesortwhichismadetobeasincomprehensibleaspossible(int varibleoftypelnt,int variableoftypeInt){int variableOftypeInt;if(varibleoftypelnt==variableoftypeInt){variableOftypeInt=(varibleoftypelnt+variableoftypeInt)*3;return variableOftypeInt;}else{variableOftypeInt=varibleoftypelnt+variableoftypeInt;return variableOftypeInt;}}
+        static void Main(string[] args){Program p=new Program();p.Enteryourintegersorsomething();Console.Write(p.Bigmathofsomesortwhichismadetobeasincomprehensibleaspossible(varibIeoftypeInt,varibleoftypeInt));Console.ReadLine();}
     }
 }
